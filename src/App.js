@@ -12,10 +12,11 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Viewtu/>}/>
-        <Route path='/add' element={<Add/>}/>
+        <Route path='/add' element={<Add
+        data={{id:'',name:'',grade:''}}method="post" />}/>
       </Routes>
+      </div>
  
-    </div>
   );
 }
 
